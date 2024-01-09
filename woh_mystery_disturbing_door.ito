@@ -1,0 +1,71 @@
+[mystery]
+name="DIRE DETAIL OF A DISTURBING DOOR"
+author="libus"
+art="woh_mystery_disturbing_door\images\mystery_icon.png"
+description="People from all over are drawn to a mysterious house in Shiokawa, whose door grants visitors the items they wish for."
+
+mystery_sound="woh_mystery_disturbing_door\sound\chrysalis.ogg"
+combat_sound="woh_mystery_disturbing_door\sound\chrysalis_combat.ogg"
+
+[card_a]
+name="BADLY BURNED"
+trigger=""
+art="woh_mystery_disturbing_door\images\img_badlyburned.png"
+flavor="--STATUS--###you won't be able to lie down on your back any time soon"
+tags="[SUDDEN INJURY]"
+a_effect="investigation_stamina"
+a_value=-1
+
+[intro]
+art="woh_mystery_disturbing_door\images\quest_image.png"
+text_one="DIRE DETAIL OF A DISTURBING DOOR##People from all over are drawn to a mysterious house in Shiokawa, whose door grants visitors the items they wish for. "
+text_two="Frequent guests are ecstatic to receive money, trinkets, and long lost keepsakes. Tourists flood the town just to catch a glimpse, though nobody has seen the inside..."
+
+[progress]
+location="DISTURBING HOUSE"
+background="woh_mystery_disturbing_door\images\quest_back.png"
+
+one_loc="apartment"
+one_txt="Curious, you visit the door, and witness it grant someone an antique vase. ##The crowd reacts in awe.#You should go discuss it with your friend."
+one_frc=""
+
+two_loc="downtown"
+two_txt="You visit your neighbour to chat about it. They are intrigued by the door and say they’ll see what they can dig up."
+two_frc="mystery\woh_mystery_disturbing_door\events\evt_newdoors.ito"
+
+thr_loc="downtown"
+thr_txt="You visit the door again, and witness it grant someone money. #The crowd is growing more electric."
+thr_frc="mystery\woh_mystery_disturbing_door\events\evt_forestfelling.ito"
+
+fou_loc="apartment"
+fou_txt="you visit the door again to witness a tourist step into it. you never see them come back out. #The crowd remains enraptured.##Maybe you should see what your friend has learned."
+fou_frc=""
+
+fiv_loc="downtown"
+fiv_txt="you visit your neighbour to discuss the door again.#They have a new familiar-looking door. #They’re excited, and mention something about a festival"
+fiv_frc="mystery\woh_mystery_disturbing_door\events\evt_ransackedvillage.ito"
+
+six_loc="downtown"
+six_txt="the town is decorated for a festival celebration.#a patchwork of matching doors line the streets, propped against any available surface or carried underarm by celebrants all heading towards the odd house"
+six_frc="mystery\woh_mystery_disturbing_door\events\evt_fanaticattack.ito"
+
+sev_loc="downtown"
+sev_txt="#You follow the festival procession to the door. #Through the commotion you can see people are streaming inside and not coming back out."
+sev_frc="mystery\woh_mystery_disturbing_door\events\evt_crowdcrush.ito"
+
+[ending_a]
+end_title="DOOR, GONE (I)"
+end_img="woh_mystery_disturbing_door\images\quest_ending.png"
+end_txta="the next day, following the festival, the house is gone, along with the people who went inside."
+end_txtb="many others wake to find their gifts have dissipated. the only reminder is the many identical doors which line the streets."
+
+[ending_b]
+end_title="DOOR, GONE (II)"
+end_img="woh_mystery_disturbing_door\images\quest_ending.png"
+end_txta="you burn down the house. with any luck you’ve prevented any great harm from the house. "
+end_txtb="the festival winds down with a morose air, as people begin to think about what to do with all these excess doors. "
+
+[big_ending]
+end_txt="this ending will appear if there's not end_txta/b/c corresponding to different endings"
+end_txta="You wonder how many more buildings in SHIOKAWA hide a dark secret, ready to be unleashed...#[DIRE DETAIL OF A DISTURBING DOOR:#ENDING A]"
+end_txtb="You wonder how many more buildings in SHIOKAWA hide a dark secret, ready to be unleashed...#[DIRE DETAIL OF A DISTURBING DOOR:#ENDING B]"

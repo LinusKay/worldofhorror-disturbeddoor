@@ -1,0 +1,17 @@
+[event]
+name="NEW DOORS"
+location="downtown"
+author="libus"
+contact="@libus"
+flavor="you notice many residents have replaced their doors with very familiar replicas"
+options="1"
+image="mystery\woh_mystery_onsen\images\img_door.png"
+big="1"
+
+optiona="CONTINUE"
+testa="story"
+successa="new doors option selected"
+winprizea="stamina"
+winnumbera="1"
+extra_winprizea="doom"
+extra_winnumbera="3"

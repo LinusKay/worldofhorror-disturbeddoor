@@ -1,0 +1,18 @@
+[event]
+name="CROWD CRUSH"
+location="downtown"
+author="libus"
+contact="@libus"
+flavor="The crowd is restless to go inside. You become trapped, as people are trampled in the rush."
+options="1"
+image="mystery\woh_mystery_onsen\images\img_bloodybathhouse.png"
+big="1"
+
+optiona="ESCAPE"
+testa="strength"
+successa="You manage to work your way out of the crowd unscathed"
+winprizea=""
+winnumbera=""
+failurea="You barely make it out of the crowd, with the bruises to show"
+failprizea="stamina"
+failnumbera="-2"

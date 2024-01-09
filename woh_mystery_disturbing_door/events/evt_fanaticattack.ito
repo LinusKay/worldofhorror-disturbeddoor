@@ -1,0 +1,15 @@
+[event]
+name="NIGHT VISIT"
+location="downtown"
+author="libus"
+contact="@libus"
+flavor="Walking through the crowd, your confusion causes you to stand out."
+options="1"
+image="mystery\woh_mystery_onsen\images\img_soakingin.png"
+big="1"
+
+optiona="someone is approaching..."
+testa="story"
+successa="someone is approaching... and they don't seem pleased."
+winprizea="trigger_enemy"
+winnumbera="mystery\woh_mystery_disturbing_door\enemies\enm_doorfanatic.ito"

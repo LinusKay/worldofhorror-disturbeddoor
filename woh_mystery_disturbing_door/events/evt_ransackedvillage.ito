@@ -1,0 +1,15 @@
+[event]
+name="RANSACKED VILLAGE"
+location="village"
+author="libus"
+contact="@libus"
+flavor="The outer village is being ransacked for materials to build doors of all kinds, leaving many houses in ruin."
+options="1"
+image="mystery\woh_mystery_onsen\images\evt_bath.png"
+big="1"
+
+optiona="CONTINUE"
+testa="story"
+successa="This has to stop somewhere..."
+winprizea="trigger_event"
+winnumbera="mystery\woh_mystery_disturbing_door\events\evt_nightvisit.ito"

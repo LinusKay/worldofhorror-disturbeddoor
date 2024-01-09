@@ -1,0 +1,15 @@
+[event]
+name="FOREST FELLING"
+location="forest"
+author="libus"
+contact="@libus"
+flavor="Grand swathes of trees are being felled, leaving areas of the forest bare as people obsessively carve the wood into identical doors"
+options="1"
+image="mystery\woh_mystery_onsen\images\img_bloodybathhouse.png"
+big="1"
+
+optiona="CONTINUE"
+testa="story"
+successa="People are obsessively carving the wood into identical doors"
+winprizea=""
+winnumbera=""
