@@ -4,8 +4,8 @@ author="libus"
 art="woh_mystery_disturbing_door\images\mystery_icon.png"
 description="People from all over are drawn to a mysterious house in Shiokawa, whose door grants visitors the items they wish for."
 
-mystery_sound="woh_mystery_disturbing_door\sound\chrysalis.ogg"
-combat_sound="woh_mystery_disturbing_door\sound\chrysalis_combat.ogg"
+mystery_sound="woh_mystery_disturbing_door\sound\graveshift.ogg"
+combat_sound="woh_mystery_disturbing_door\sound\graveshift_combat.ogg"
 
 [card_a]
 name="BADLY BURNED"
