@@ -1,0 +1,15 @@
+[event]
+name="FESTIVAL PROCESSION"
+location="downtown"
+author="libus"
+contact="@libus"
+flavor="You follow the ambling festival procession through town.##Through the crowd you glimpse a commotion ahead."
+options="1"
+image="mystery\woh_mystery_disturbing_door\images\img_festivalprocession.png"
+big="1"
+
+optiona="peek over heads"
+testa="story"
+successa="Peering over many jostling heads you’re overcome with a feeling of dread.##Endless bodies shuffle inside the agape door##and do not come out."
+winprizea="trigger_enemy"
+winnumbera="mystery\woh_mystery_disturbing_door\enemies\enm_doorfanatic.ito"
